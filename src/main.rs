@@ -1,3 +1,6 @@
+use std::time::{Duration, Instant};
 fn main() {
-    println!("Hello, world!");
+    let start = Instant::now();
+
+    println!("time elapsed: {:?}", start.elapsed());
 }
