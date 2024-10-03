@@ -1,3 +1,4 @@
+impl Solution {
 pub fn reverse(x: i32) -> i32 {
     const RADIX:i64 = 10;
     let mut input = x as i64;
@@ -10,4 +11,5 @@ pub fn reverse(x: i32) -> i32 {
         return 0;
     }
     rev as i32
+}
 }
