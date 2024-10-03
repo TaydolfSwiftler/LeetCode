@@ -1,4 +1,3 @@
-impl Solution {
 pub fn convert(s: String, num_rows: i32) -> String {
     let result: String = String::new();
     let length = s.len();
@@ -28,5 +27,4 @@ pub fn convert(s: String, num_rows: i32) -> String {
         }
     }
     string_parts.join("")
-}
 }
